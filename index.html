@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สวนผักหวานป่าราชสีห์ | Rajasri Pakhwan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;600&family=Prompt:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body { font-family: 'Prompt', sans-serif; scroll-behavior: smooth; }
+        .font-kanit { font-family: 'Kanit', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/611081658_1329502525861144_6190993660422480410_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=104&ccb=1-7&_nc_sid=833d8c&_nc_ohc=AjPFVqm7dYYQ7kNvwGbqdZ4&_nc_oc=AdnYHJ3p7_A5qpGK2XzB4oTk5UKYPxO0cHrWCFFmtMQsmZ53BpaytcCSx4iipP2CyNk&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=IYl9Zf6D9MxqrBaEyZBMVg&oh=00_Afr1BCdBFlknUPkkWm2KTdPV1y3GwDUasBL1o_AQ7Yc0SQ&oe=6967D83E');
+            background-size: cover;
+            background-position: center;
+        }
+        .gold-gradient {
+            background: linear-gradient(45deg, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-stone-50 text-gray-800">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-stone-200">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold font-kanit tracking-tighter text-green-800">
+                สวนผักหวานป่า <span class="text-amber-600">ราชสีห์</span>
+            </div>
+            <div class="hidden md:flex space-x-8 font-light">
+                <a href="#" class="hover:text-green-700 transition">หน้าหลัก</a>
+                <a href="#about" class="hover:text-green-700 transition">สรรพคุณ</a>
+                <a href="#products" class="hover:text-green-700 transition">ผลผลิต</a>
+                <a href="#contact" class="hover:text-green-700 transition">ติดต่อเรา</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-bg h-screen flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-bold font-kanit mb-6 leading-tight">
+                สวนผักหวานป่า<span class="gold-gradient">ราชสีห์</span>
+            </h1>
+            <p class="text-lg md:text-2xl font-light mb-8 tracking-wide italic">
+                “มรดกแห่งไพรอันล้ำค่า... รสชาติธรรมชาติที่ส่งตรงจากพญาแห่งป่า”
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#products" class="bg-amber-600 hover:bg-amber-500 text-white px-10 py-4 rounded-full text-lg transition duration-300">ชมผลผลิต</a>
+                <a href="#about" class="border border-white hover:bg-white hover:text-black px-10 py-4 rounded-full text-lg transition duration-300">ศาสตร์แห่งการฟื้นฟู</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 px-6 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <div class="overflow-hidden rounded-2xl shadow-2xl">
+                    <img src="https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/600298925_1313491480795582_8713081621343228392_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=Twrm8v4UXLcQ7kNvwFRCHTr&_nc_oc=Admq7FuLkCI3uBqF8_OxxFRdJwn24h1KgoCJ2WMX4llEeu6eFZdCJHYTV6cBamCr4fM&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=nVQ5LKHH96-LzmB2of160Q&oh=00_AfoDluLNQsFSfgVjeflFivi3WHFqS0q0CBvUN_qyHT9Lpw&oe=6967DD8D" 
+                         alt="Garden" class="w-full h-auto max-h-[500px] object-cover">
+                </div>
+                <div class="absolute -bottom-4 -right-4 bg-green-800/95 backdrop-blur-sm text-white px-6 py-5 rounded-2xl hidden md:block border border-white/20 text-center">
+                    <p class="text-2xl font-bold italic">100%</p>
+                    <p class="text-[10px] font-light uppercase tracking-widest text-green-200">Organic Pure</p>
+                </div>
+            </div>
+            <div>
+                <h2 class="text-4xl font-bold font-kanit text-green-900 mb-6 underline decoration-amber-500 decoration-4 underline-offset-8">ประโยชน์จากผักหวานป่า</h2>
+                <p class="text-gray-600 leading-relaxed mb-6 text-lg">
+                    การได้รับประทานยอดอ่อนผักหวานป่าเปรียบเสมือนการเติมพลังบริสุทธิ์จากธรรมชาติเข้าสู่ร่างกาย เพราะทุกยอดอัดแน่นไปด้วย <strong>เบต้าแคโรทีนและวิตามินเอ</strong> ที่ทำหน้าที่เป็นเกราะป้องกันและฟื้นฟูจอประสาทตาให้สดใส ท่ามกลางยุคสมัยที่เราต้องเผชิญกับแสงสีฟ้าจากหน้าจออยู่ตลอดเวลา
+                </p>
+                <p class="text-gray-600 leading-relaxed mb-6">
+                    มากไปกว่านั้น ยังมี <strong>แคลเซียมและฟอสฟอรัส</strong> เสริมความแข็งแกร่งให้กับมวลกระดูก และมีใยอาหารใยละเอียดที่ทำหน้าที่เสมือน "ไม้กวาดธรรมชาติ" ช่วยทำความสะอาดลำไส้ให้ระบบขับถ่ายกลับมาสมดุลและตัวเบาสบายอย่างแท้จริง
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="py-24 bg-stone-100 px-6 border-t border-stone-200">
+        <div class="max-w-7xl mx-auto text-center mb-16">
+            <h2 class="text-4xl font-bold font-kanit text-green-900 mb-4">ผลผลิตล้ำค่าจากฤดูกาล</h2>
+            <div class="w-24 h-1 bg-amber-500 mx-auto"></div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                <div class="h-60 overflow-hidden">
+                    <img src="https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/612438921_1333506762127387_9052133257011846694_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=VGBrxtI8jSgQ7kNvwE3kckz&_nc_oc=AdmGyust4uCaAlURurrPnLvFT7TF38iWEHdwjvsFWzWXDaDA2gyHKFqh9egAKYY6PEE&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=wxARxB2wSUSufMLhTC9XqQ&oh=00_Afowaon1Tmo2f18a09pNlDYoeuCZOi8wTKTE3cwLMgbEcg&oe=6967E6FD" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">ยอดอ่อนผักหวานป่า</h3>
+                    <p class="text-gray-500 text-sm mb-4">คลังวิตามินจากธรรมชาติ บำรุงสายตาและภูมิคุ้มกัน</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                <div class="h-60 overflow-hidden">
+                    <img src="https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/593754963_1305658554912208_3450060047528837027_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=N6SExDLXMP8Q7kNvwEc4oAo&_nc_oc=Adk_MUpSOq6nvryEGE-wskdKyvFsUu5E_Zt2Zlc_bhxZ6KgqJdBvc-uTcEXU_1jeZqc&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=IzLjxGpxb3mArGoucEmMBA&oh=00_AfrTp7dGgicBH4NSdh4C0oJTCcVnUNE1pfbhsP_R57CsHg&oe=6967D92F" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">ลูกอ่อนผักหวานป่า</h3>
+                    <p class="text-gray-500 text-sm mb-4">กรุบกรอบ หวานมัน หนึ่งปีมีให้ทานเพียงครั้งเดียว</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
+                <div class="h-60 overflow-hidden">
+                    <img src="https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/518307651_1181235910687807_7924237419481179687_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=kmrPAXwTenkQ7kNvwEahhob&_nc_oc=Admx4ZLiZD29BScPigLHsPxTx2nIf-LuQRgxD2CH6yUexRJg5yGhQi0eUni_hDK6l74&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=KVtmqQ4JMrJYWatZN2eB2w&oh=00_AfpIWsXKvKb8RoutkPPNIrL8GST1OVF5PoBF6mH_eVzMjw&oe=6967EB6A" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">เมล็ดพันธุ์และต้นกล้า</h3>
+                    <p class="text-gray-500 text-sm mb-4">สายพันธุ์ราชสีห์แท้ รากเดินดี แข็งแรง พร้อมปลูก</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group border-2 border-amber-200">
+                <div class="h-60 overflow-hidden relative">
+                    <img src="https://scontent.fbkk19-1.fna.fbcdn.net/v/t39.30808-6/614662596_1334284515382945_1997354161439695462_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=btHkhRSDMQYQ7kNvwEP0Z0q&_nc_oc=AdmXWj8oi_504UDKaK6-HexB4mGtgJ2Bj2jnjbjuBs-V0VUZImqWLNApGKaOmx1Jk58&_nc_zt=23&_nc_ht=scontent.fbkk19-1.fna&_nc_gid=XHywSLEv67BgRTz-rjzJAw&oh=00_AfqynOuw0Gk7xQ9L_bdlIgr9z3E2ErOsSik3l0QXhTaYPw&oe=6967E3A6" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <span class="absolute top-3 right-3 bg-amber-500 text-white text-[10px] px-2 py-1 rounded-full font-bold uppercase">New</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">ผักหวานป่าอบกรอบ</h3>
+                    <p class="text-gray-500 text-sm mb-4">นวัตกรรมล็อคความสด เคี้ยวเพลิน ประโยชน์เต็มคำ</p>
+                    <p class="text-amber-600 font-bold text-lg italic">Coming Soon</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-green-950 text-stone-300 py-20 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 text-center md:text-left">
+            <div>
+                <h2 class="text-3xl font-bold font-kanit text-white mb-4">สวนผักหวานป่าราชสีห์</h2>
+                <p class="font-light">เพราะเราไม่ได้ส่งมอบแค่ผัก แต่เราส่งมอบสุขภาพดีที่ส่งตรงจากพญาแห่งป่า</p>
+            </div>
+            <div class="flex flex-col items-center md:items-start gap-4">
+                <h3 class="text-white font-bold mb-2 underline decoration-amber-500">ติดต่อเรา</h3>
+                <a href="https://www.facebook.com/profile.php?id=100064042267067" target="_blank" class="flex items-center gap-3 hover:text-amber-500 transition">
+                    <i class="fab fa-facebook-square text-2xl"></i> Facebook Page
+                </a>
+                <p class="flex items-center gap-3"><i class="fas fa-map-marker-alt"></i> อ.บ้านหมอ จ.สระบุรี</p>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-sm text-stone-500">© 2026 Suan Phak Hwan Pa Rat Cha Si.</p>
+                <p class="text-xs mt-2 uppercase tracking-widest">Designed for Rajasri Garden</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
+        <a href="https://m.me/100064042267067" target="_blank" 
+           class="bg-[#0084ff] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300">
+            <i class="fab fa-facebook-messenger text-2xl"></i>
+        </a>
+    </div>
+
+</body>
+</html>

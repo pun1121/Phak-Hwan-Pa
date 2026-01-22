@@ -33,6 +33,7 @@
             <div class="hidden md:flex space-x-8 font-light">
                 <a href="#" class="hover:text-green-700 transition">หน้าหลัก</a>
                 <a href="#about" class="hover:text-green-700 transition">สรรพคุณ</a>
+                <a href="#news" class="hover:text-green-700 transition text-amber-600 font-bold">ข่าวสารการจอง</a>
                 <a href="#products" class="hover:text-green-700 transition">ผลผลิต</a>
                 <a href="#contact" class="hover:text-green-700 transition">ติดต่อเรา</a>
             </div>
@@ -48,7 +49,7 @@
                 “มรดกแห่งไพรอันล้ำค่า... รสชาติธรรมชาติที่ส่งตรงจากพญาแห่งป่า”
             </p>
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#products" class="bg-amber-600 hover:bg-amber-500 text-white px-10 py-4 rounded-full text-lg transition duration-300">ชมผลผลิต</a>
+                <a href="#news" class="bg-amber-600 hover:bg-amber-500 text-white px-10 py-4 rounded-full text-lg transition duration-300 shadow-lg">จองผลผลิตล่วงหน้า</a>
                 <a href="#about" class="border border-white hover:bg-white hover:text-black px-10 py-4 rounded-full text-lg transition duration-300">ศาสตร์แห่งการฟื้นฟู</a>
             </div>
         </div>
@@ -58,8 +59,7 @@
         <div class="grid md:grid-cols-2 gap-16 items-center">
             <div class="relative">
                 <div class="overflow-hidden rounded-2xl shadow-2xl">
-                    <img src="render\1.png" 
-                         alt="Garden" class="w-full h-auto max-h-[500px] object-cover">
+                    <img src="render/1.png" alt="Garden" class="w-full h-auto max-h-[500px] object-cover">
                 </div>
                 <div class="absolute -bottom-4 -right-4 bg-green-800/95 backdrop-blur-sm text-white px-6 py-5 rounded-2xl hidden md:block border border-white/20 text-center">
                     <p class="text-2xl font-bold italic">100%</p>
@@ -69,11 +69,62 @@
             <div>
                 <h2 class="text-4xl font-bold font-kanit text-green-900 mb-6 underline decoration-amber-500 decoration-4 underline-offset-8">ประโยชน์จากผักหวานป่า</h2>
                 <p class="text-gray-600 leading-relaxed mb-6 text-lg">
-                    การได้รับประทานยอดอ่อนผักหวานป่าเปรียบเสมือนการเติมพลังบริสุทธิ์จากธรรมชาติเข้าสู่ร่างกาย เพราะทุกยอดอัดแน่นไปด้วย <strong>เบต้าแคโรทีนและวิตามินเอ</strong> ที่ทำหน้าที่เป็นเกราะป้องกันและฟื้นฟูจอประสาทตาให้สดใส ท่ามกลางยุคสมัยที่เราต้องเผชิญกับแสงสีฟ้าจากหน้าจออยู่ตลอดเวลา
+                    การได้รับประทานยอดอ่อนผักหวานป่าเปรียบเสมือนการเติมพลังบริสุทธิ์จากธรรมชาติเข้าสู่ร่างกาย เพราะทุกยอดอัดแน่นไปด้วย <strong>เบต้าแคโรทีนและวิตามินเอ</strong> ที่ทำหน้าที่เป็นเกราะป้องกันและฟื้นฟูจอประสาทตาให้สดใส
                 </p>
                 <p class="text-gray-600 leading-relaxed mb-6">
-                    มากไปกว่านั้น ยังมี <strong>แคลเซียมและฟอสฟอรัส</strong> เสริมความแข็งแกร่งให้กับมวลกระดูก และมีใยอาหารใยละเอียดที่ทำหน้าที่เสมือน "ไม้กวาดธรรมชาติ" ช่วยทำความสะอาดลำไส้ให้ระบบขับถ่ายกลับมาสมดุลและตัวเบาสบายอย่างแท้จริง
+                    มากไปกว่านั้น ยังมี <strong>แคลเซียมและฟอสฟอรัส</strong> เสริมความแข็งแกร่งให้กับมวลกระดูก และมีใยอาหารใยละเอียดที่ช่วยระบบขับถ่ายให้สมดุลและตัวเบาสบายอย่างแท้จริง
                 </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="py-16 bg-amber-50 px-6 border-y border-amber-200">
+        <div class="max-w-7xl mx-auto">
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden flex flex-col md:flex-row items-stretch border border-amber-100 min-h-[350px] group">
+    
+    <div class="relative w-full md:w-2/5 overflow-hidden">
+        <img src="render/op.jpg" alt="Booking News" 
+             class="w-full h-full object-cover transition duration-700 group-hover:scale-110">
+        <div class="absolute inset-0 bg-gradient-to-r from-black/20 to-transparent"></div>
+        
+        <div class="absolute top-4 left-4">
+            <span class="bg-amber-500 text-white text-[10px] px-3 py-1 rounded-full font-bold uppercase tracking-widest shadow-lg">
+                Limited Edition
+            </span>
+        </div>
+    </div>
+
+    <div class="p-8 md:p-12 flex-1 flex flex-col justify-center bg-gradient-to-br from-white to-amber-50/30">
+        <div class="flex items-center gap-2 mb-4">
+            <span class="w-8 h-[2px] bg-amber-500"></span>
+            <span class="text-amber-600 font-bold text-sm uppercase tracking-tighter">News Update</span>
+        </div>
+        
+        <h2 class="text-3xl md:text-4xl font-bold font-kanit text-green-900 mb-4 leading-tight">
+            เตรียมพบกับ... <br>
+            <span class="text-amber-600">ลูกอ่อนผักหวานป่า</span>
+        </h2>
+        
+        <p class="text-gray-600 mb-8 leading-relaxed text-lg font-light">
+            ถ้าเปิดจองแล้ว ทางเราจะแจ้งข่าวสารผ่านทางเพจ facebook : สวนผักหวานราชสีห์ โปรดติดตามไว้!
+        </p>
+        
+        <!-- <div class="flex flex-wrap gap-4">
+            <a href="https://docs.google.com/forms/d/YOUR_GOOGLE_FORM_ID/viewform" target="_blank" 
+               class="inline-flex items-center gap-3 bg-green-700 hover:bg-green-800 text-white px-10 py-4 rounded-2xl text-lg font-bold transition-all shadow-xl hover:-translate-y-1 hover:shadow-green-900/20">
+                <i class="fab fa-google text-xl"></i>
+                ลงชื่อจองผลผลิต
+            </a> -->
+            
+            <a href="https://m.me/100064042267067" target="_blank"
+               class="inline-flex items-center gap-2 text-gray-500 hover:text-green-700 font-medium transition-colors">
+                <i class="fab fa-facebook-messenger"></i>
+                สอบถามรายละเอียด
+            </a>
+        </div>
+    </div>
+</div>
+                </div>
             </div>
         </div>
     </section>
@@ -86,7 +137,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
                 <div class="h-60 overflow-hidden">
-                    <img src="render/2.png">
+                    <img src="render/2.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">ยอดอ่อนผักหวานป่า</h3>
@@ -95,7 +146,7 @@
             </div>
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
                 <div class="h-60 overflow-hidden">
-                    <img src="render/3.png">
+                    <img src="render/3.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                 </div>
                 <div class="p-6">
                     <h3 class="text-xl font-bold mb-2 text-green-800 font-kanit">ลูกอ่อนผักหวานป่า</h3>
@@ -113,7 +164,7 @@
             </div>
             <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group border-2 border-amber-200">
                 <div class="h-60 overflow-hidden relative">
-                    <img src="render/4.png">
+                    <img src="render/4.png" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <span class="absolute top-3 right-3 bg-amber-500 text-white text-[10px] px-2 py-1 rounded-full font-bold uppercase">New</span>
                 </div>
                 <div class="p-6">
